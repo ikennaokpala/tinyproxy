@@ -25,6 +25,14 @@ To install this package under a UNIX derivative, read the INSTALL file.
 Tinyproxy uses a standard GNU `configure` script. Basically you should
 be able to do:
 
+Install Dependencies first
+-------------------------
+aptitude install autoconf libtool automake aclocal  autoheader
+autoreconf --install
+autoconf configure.ac > configure
+chmod +x configure
+./configure --prefix=/usr && make && make install
+
 ----
 ./configure
 make
