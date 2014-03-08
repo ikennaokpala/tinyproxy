@@ -27,7 +27,7 @@ be able to do:
 
 Install Dependencies first
 -------------------------
-aptitude install autoconf libtool automake aclocal  autoheader
+aptitude install autoconf libtool automake aclocal  autoheader asciidoc
 autoreconf --install
 autoconf configure.ac > configure
 chmod +x configure
